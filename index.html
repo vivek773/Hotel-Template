@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Web Template</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <nav class="shadow-nav navbar navbar-expand-lg static-top">
+            <div class="navbar-head">
+                <div className="nav-left">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="hottel-logo nav-item">
+                                <a class="logo nav-link text-secondary menu-item text-white" aria-current="page" href="/#"><i
+                                        class="fa-solid fa-bed mx-2"></i> Logo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary menu-item text-dark" href="/#">Rooms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary menu-item text-dark" aria-current="page" href="/#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary menu-item text-dark" aria-current="page" href="/#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="nav-right">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="book-now nav-item">
+                                <a class="nav-link text-secondary menu-item text-dark" aria-current="page"
+                                    href="/#">Book Now</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+    <section class="hero">
+        <div class="container">
+            <div class="home-bg-image">
+                <div class="container-fluid">
+                    <div class="hero-container">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="check-availability">
+                                <div class="hotel-name text-white py-2">
+                                    <h2 class="ms-3"> <i class="fa-solid fa-bed"></i> Hotel Name</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="bg-white p-3">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <p class="ms-2"><i class="fa-regular fa-calendar"></i> Check In</p>
+                                        <input class="form-control  ms-2" type="text"
+                                            placeholder="DD MM YYYY">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <p><i class="fa-regular fa-calendar"></i> Check Out</p>
+                                        <input class="form-control " type="text"
+                                            placeholder="DD MM YYYY">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <p class="ms-2"><i class="fa-solid fa-person"></i> Adults</p>
+                                        <input class="form-control  ms-2" type="number" value="1"
+                                            placeholder="1">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <p><i class="fa-solid fa-child-reaching"></i> Kids</p>
+                                        <input class="form-control " type="number" placeholder="0">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <div class="search-button mt-3 ms-2">
+                                            <a class="search-availabilit-btn nav-link text-white menu-item bg-secondary" href="#"
+                                                aria-current="page" href="/#"> <i
+                                                    class="fa-solid fa-magnifying-glass"></i> Search availability</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-rooms">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="mt-4">Rooms</h3>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest
+                        well.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <p class="ms-2"><i class="fa-regular fa-calendar"></i> Check In</p>
+                        <input class="form-control form-control-lg ms-2" type="text" placeholder="DD MM YYYY">
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <p><i class="fa-regular fa-calendar"></i> Check Out</p>
+                        <input class="form-control form-control-lg" type="text" placeholder="DD MM YYYY">
+
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <p class="ms-2"><i class="fa-solid fa-person"></i> Adults</p>
+                        <input class="form-control form-control-lg ms-2" type="number" value="1" placeholder="1">
+
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <p><i class="fa-solid fa-child-reaching"></i> Kids</p>
+                        <input class="form-control form-control-lg" type="number" placeholder="0">
+
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <p><i class="fa-solid fa-magnifying-glass"></i> Search</p>
+                        <a class="nav-link text-white menu-item bg-dark" href="#" aria-current="page" href="/#"> <i
+                                class="fa-solid fa-magnifying-glass"></i> Search</a>
+                    </div>
+                </div>
+            </div>
+            <section class="room-price">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 mt-3">
+                            <div class="card border-0 w-100">
+                                <img src="	https://www.w3schools.com/w3images/room_single.jpg"
+                                    class="card-img-top w-100" alt="...">
+                                <div class="card-body p-3">
+                                    <h3 class="card-title">Single Room</h3>
+                                    <p class="text-secondary">From $199</p>
+                                    <p class="card-text">Single bed</p>
+                                    <p class="card-text">15m <sup>2</sup></p>
+                                    <div class="facility-icons">
+                                        <i class="fa-solid fa-bath"></i>
+                                        <i class="fa-solid fa-phone"></i>
+                                        <i class="fa-solid fa-wifi"></i>
+                                    </div>
+                                    <div class="choose-room-button"> 
+                                        <a href="#" class="contact-button btn btn-dark w-100 mt-2">Choose Room</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 mt-3">
+                            <div class="card border-0 w-100">
+                                <img src="https://www.w3schools.com/w3images/room_double.jpg" class="card-img-top w-100"
+                                    alt="...">
+                                <div class="card-body p-3">
+                                    <h3 class="card-title">Double Room</h3>
+                                    <p class="text-secondary">From $149</p>
+                                    <p class="card-text">Queen-size bed</p>
+                                    <p class="card-text">25m <sup>2</sup></p>
+                                    <div class="facility-icons">
+                                        <i class="fa-solid fa-bath"></i>
+                                        <i class="fa-solid fa-phone"></i>
+                                        <i class="fa-solid fa-wifi"></i>
+                                        <i class="fa-solid fa-desktop"></i>
+                                    </div>
+                                    <a href="#" class="contact-button btn btn-dark w-100 mt-2">Choose Room</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 mt-3">
+                            <div class="card border-0 w-100">
+                                <img src="https://www.w3schools.com/w3images/room_deluxe.jpg" class="card-img-top w-100"
+                                    alt="...">
+                                <div class="card-body p-3">
+                                    <h3 class="card-title">Deluxe Room</h3>
+                                    <p class="text-secondary">From $199</p>
+                                    <p class="card-text">King-size bed</p>
+                                    <p class="card-text">45m <sup>2</sup></p>
+                                    <div class="facility-icons">
+                                        <i class="fa-solid fa-bath"></i>
+                                        <i class="fa-solid fa-phone"></i>
+                                        <i class="fa-solid fa-wifi"></i>
+                                        <i class="fa-solid fa-desktop"></i>
+                                        <i class="fa-solid fa-martini-glass"></i>
+                                        <i class="fa-solid fa-utensils"></i>
+                                    </div>
+                                    <a href="#" class="contact-button btn btn-dark w-100 mt-2">Choose Room</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 mt-3">
+                        <h4>About</h4>
+                        <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <p> We accept:
+                            <i class="fa-regular fa-credit-card"></i>
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                            <i class="fa-brands fa-cc-amex"></i>
+                            <i class="fa-brands fa-cc-paypal"></i>
+                        </p>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 mt-3">
+                        <div class="location-map-image">
+                            <img src="https://www.w3schools.com/w3images/map.jpg" class="map-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 mt-3">
+                        <p class="text-center"><i class="fa-solid fa-location-dot"></i> 423 Some adr, Chicago, US</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 mt-3">
+                        <p class="text-center"><i class="fa-solid fa-phone"></i> Phone: +00 151515</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 mt-3">
+                        <p class="text-center"><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <div class="information text-white py-5">
+                            <p class="ms-3"><i class="fa-solid fa-circle-info"></i> On demand, we can offer
+                                playstation, babycall, children care, dog equipment, etc.</p>
+                        </div>
+                    </div>
+            </section>
+            <section class="our-hotels">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <h3 class="mt-3">Our Hotels</h3>
+                </div>
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <p>You can find our hotels anywhere in the world:</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="https://www.w3schools.com/w3images/cinqueterre.jpg" class="w-100">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <img src="https://www.w3schools.com/w3images/newyork2.jpg" class="w-100">
+                                <p></p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <img src="https://www.w3schools.com/w3images/sanfran.jpg" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <img src="https://www.w3schools.com/w3images/pisa.jpg" class="w-100">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <img src="https://www.w3schools.com/w3images/paris.jpg" class="w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="offer-section">
+                <diV class="best-offers bg-dark mt-4 p-4">
+                    <h2 class="text-white">Get the best offers first!</h2>
+                    <p class="text-white mt-3"> Join our newsletter.</p>
+                    <div class="email-box">
+                        <label for="exampleFormControlInput1" class="form-label text-white">E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Your Email Address">
+                    </div>
+                    <button type="button" class="subscribe-button btn btn-danger btn-lg mt-3">Subscribe</button>
+                </diV>
+            </section>
+            <section class="contact-section mt-4">
+                <div class="contact">
+                    <div>
+                        <h3 class="">Contact</h3>
+                        <p> If you have any questions, do not hesitate to ask them.</p>
+                    </div>
+                    <div>
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i> Chicago, US
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-phone"></i> Phone: +00 151515
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope"></i> Email: mail@mail.com
+                        </p>
+                    </div>
+                    <div class="form"> 
+                        <input type="text" class="form-control py-3"
+                            placeholder="Name">
+                            <input type="email" class="form-control py-3 mt-3"
+                            placeholder="Email">
+                            <input type="text" class="form-control py-3 mt-3"
+                            placeholder="Message">
+                            <button type="button" class="send-message-btn btn btn-dark btn-lg mt-3">SEND MESSAGE</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="find-us-socialmedia-section">
+            <div class="social-media-icons bg-dark p-5 mt-5">
+                <p class="text-white text-center"> Find Us on</p>
+                <div class="mt-3 text-center text-white">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-snapchat-square"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                
+            </div>        
+        </section>
+    </section>
