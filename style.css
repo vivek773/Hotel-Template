@@ -10,12 +10,13 @@ html {
 }
 body{
     font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1;
 }
 /* navbar start */
 
 .navbar-head {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex: 1;
     align-items: center;
 }
@@ -29,29 +30,42 @@ body{
     top: 0px;
     width: 100%;
 }
-
-.nav-left {
-    width: 100px;
+.navbar-brand{
+    background-color:#f44336;
+    padding: 10px 16px; 
+    color: white;
+    font-size: 16px;
+    margin-right: 0;
 }
+.navbar-brand:hover{
+    background-color:rgb(219, 217, 217);
+    color: black;
+}  
 .hottel-logo{
-    background-color: #f44336!important;;
+    background-color: #f44336;;
 }
 .nav-right {
     flex: 1;
-    /* width: 100%; */
+}
+.nav-link.menu-item {
+    padding: 8px 16px !important;
+    font-size: 16px;
+}
+.nav-link.menu-item:hover{
+    color: black !important;
 }
 .menu-item:hover {
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(219, 217, 217);
 }
 .book-now{
     background-color:#f1f1f1!important;
 }
+.navbar-brand i{
+    font-size: 14px;
+}
 /* navbar end */
 
 
-.container{
-    width:95%;
-}
 
 .home-bg-image {
     display:flex;
@@ -62,7 +76,6 @@ body{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 90vh;
     position: relative;
 }
 .map-image {
@@ -80,6 +93,19 @@ body{
 }
 .contact-button{
     border-radius: 0%;
+}
+.check-availability{
+    margin: 250px 0px;
+}
+.hotel-name i{
+    font-size:25px;
+}
+.hotel-name h2{
+    font-weight: 400;
+    font-size:25px;
+}
+.check-in-check-out-input p{
+    margin-bottom:0 !important;
 }
 .contact-button:hover{
     background-color: rgb(199, 199, 199);
@@ -113,4 +139,62 @@ body{
     background-color: rgb(199, 199, 199);
     color: black;
     
+}
+.search-availabilit-btn{
+    background-color: #616161!important;
+    border: none;
+}
+.search-availabilit-btn:hover{
+    background-color:rgb(199, 199, 199) !important;
+}
+
+.search-availabilit-btn span{
+    font-size:15px;
+}
+.search-button i{
+    font-size: 14px; 
+}
+.search-availabilit-btn2 span{
+    font-size: 15px; 
+}
+.search-availabilit-btn2:hover{
+background-color: rgb(199, 199, 199) !important;
+color: black;
+}
+.search-rooms h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.card-body h3{ 
+    font-weight: 400;
+    font-size: 25px;
+}
+.contact i{
+    color: red;
+}
+.best-offers{
+    opacity: 0.60;
+}
+.best-offers:hover{
+    opacity: 1;
+}
+.contact i{
+    font-size: 12px;
+}
+.contact h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+.our-hotels h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+.hotel-image-heading{
+    position: relative;
+}
+.image-heading{
+    position: absolute;
+    bottom: 1px;
+    left: 8px;
+
 }
