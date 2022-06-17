@@ -89,7 +89,10 @@ body{
     background-color: #f44336!important;
 }
 .information{
+    border-left: 6px solid #ccc;
+    margin-top: 20px;
     background-color: #f44336!important;
+    padding: 40px 0px;
 }
 .contact-button{
     border-radius: 0%;
@@ -109,7 +112,7 @@ body{
 }
 .contact-button:hover{
     background-color: rgb(199, 199, 199);
-    border: none;
+    border-color: rgb(199, 199, 199);;
     color: black;
 }
 .form-control{
@@ -123,7 +126,7 @@ body{
 }
 .subscribe-button:hover{
     background-color: rgb(199, 199, 199);
-    border: none;
+    border-color: rgb(199, 199, 199);;
     color: black;
 }
 .send-message-btn{
@@ -132,7 +135,7 @@ body{
 }
 .send-message-btn:hover{
     background-color: rgb(199, 199, 199);
-    border: none;
+    border-color: rgb(199, 199, 199);
     color: black;
 }
 .room-search:hover{
@@ -196,5 +199,26 @@ color: black;
     position: absolute;
     bottom: 1px;
     left: 8px;
-
+}
+.contact-heading h2{
+    font-weight: 400;
+    font-size:25px;
+}
+.contact-details p{
+    margin-bottom: 0;
+    font-size:15px;
+}
+.social-media-icons a{
+    color: white;
+    text-decoration: none;
+}
+.information span.info-box{
+    background-color: #ff5722!important;
+    padding: 5px 14px;  
+}
+.information p{
+    margin-bottom: 0; 
+}
+.information p span.info-heading{
+    font-size: 16px;
 }
